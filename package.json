@@ -1,0 +1,66 @@
+{
+  "name": "work-flow-case",
+  "version": "1.0.0",
+  "private": true,
+  "description": "take an example to demonstration that how to manage your projects",
+  "author": {
+    "name": "jrzhangzheng@jd.com"
+  },
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "serve:A": "cross-env PROJECT_ENV=A vue-cli-service serve",
+    "serve:B": "cross-env PROJECT_ENV=B vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "core-js": "^3.15.2",
+    "vue": "^2.6.14",
+    "vue-router": "^3.5.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.5.13",
+    "@vue/cli-plugin-eslint": "^4.5.13",
+    "@vue/cli-plugin-router": "^4.5.13",
+    "@vue/cli-service": "^4.5.13",
+    "babel-eslint": "^10.1.0",
+    "cross-env": "^7.0.3",
+    "eslint": "^6.8.0",
+    "eslint-plugin-vue": "^6.2.2",
+    "vue-template-compiler": "^2.6.14"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "_id": "work-flow-case@1.0.0",
+  "bugs": {
+    "url": "https://github.com/happiaZhang/work-flow-case/issues"
+  },
+  "homepage": "https://github.com/happiaZhang/work-flow-case#readme",
+  "keywords": [
+    "GitFlow"
+  ],
+  "license": "ISC",
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/happiaZhang/work-flow-case.git"
+  }
+}
